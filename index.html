@@ -5,30 +5,233 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Jehral Garcia | Software Engineer</title>
   <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
-  <header>
-    <h1>Jehral Jerich Garcia</h1>
-    <p>Software Engineer | Full Stack Developer</p>
-  </header>
-  
-  <section id="about">
-    <h2>About Me</h2>
-    <p>I’m a full-stack web developer with 2+ years of experience in Laravel, Vue.js, Cypress, and more.</p>
-  </section>
+  <main class="container">
+    <!-- Hero Section -->
+    <section id="hero" class="hero-section">
+      <div class="hero-content">
+        <div class="hero-text">
+          <h1 class="hero-title">Hi, I'm Jehral 👋</h1>
+          <p class="hero-subtitle">All-rounder developer adept with both front-end and back-end, boasting significant involvement in projects as lead developer. TypeScript, JavaScript, PHP, Laravel, Vue.js—name it, I can do it.</p>
+        </div>
+        <div class="hero-avatar">
+          <div class="avatar">JG</div>
+        </div>
+      </div>
+    </section>
 
-  <section id="projects">
-    <h2>Projects</h2>
-    <ul>
-      <li><strong>VCP System</strong> – Laravel-based internal platform</li>
-      <li><strong>CAF Form Automation</strong> – Cypress automation for PDF generation</li>
-    </ul>
-  </section>
+    <!-- About Section -->
+    <section id="about" class="section">
+      <h2 class="section-title">About</h2>
+      <p class="section-text">
+        I'm a full-stack web developer with 2+ years of experience building scalable applications. 
+        Over the past few years, I've focused on building my technical skills in real-world settings, 
+        honing my expertise in TypeScript, PHP, Laravel, and Vue.js through hands-on projects. 
+        I've worked as a developer, collaborated with cross-functional teams, and delivered high-quality solutions.
+      </p>
+      <p class="section-text">
+        Outside of work, I enjoy exploring new technologies and contributing to open-source projects. 
+        I'm passionate about creating efficient, user-friendly applications that solve real-world problems.
+      </p>
+    </section>
 
-  <section id="contact">
-    <h2>Contact</h2>
-    <p>Email: csjjgarcia@gmail.com</p>
-    <p>GitHub: <a href="https://github.com/jehralgarcia">jehralgarcia</a></p>
-  </section>
+    <!-- Work Experience Section -->
+    <section id="work" class="section">
+      <h2 class="section-title">Work Experience</h2>
+      <div class="work-item">
+        <div class="work-header">
+          <div class="work-info">
+            <h3 class="work-company">Software Engineer Experience</h3>
+            <p class="work-title">Full Stack Developer</p>
+          </div>
+          <span class="work-period">2022 - Present</span>
+        </div>
+        <p class="work-description">
+          Developed and maintained multiple web applications using Laravel, Vue.js, and modern JavaScript frameworks. 
+          Collaborated with cross-functional teams to deliver high-quality software solutions and optimize system performance.
+        </p>
+      </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="section">
+      <h2 class="section-title">Education</h2>
+      <div class="education-item">
+        <div class="work-header">
+          <div class="work-info">
+            <h3 class="work-company">Computer Science Background</h3>
+            <p class="work-title">Self-taught Developer</p>
+          </div>
+          <span class="work-period">2020 - Present</span>
+        </div>
+        <p class="work-description">
+          Continuously learning and improving through hands-on projects, online courses, and real-world experience.
+        </p>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+      <h2 class="section-title">Skills</h2>
+      <div class="skills-grid">
+        <span class="skill-tag">Laravel</span>
+        <span class="skill-tag">Vue.js</span>
+        <span class="skill-tag">TypeScript</span>
+        <span class="skill-tag">JavaScript</span>
+        <span class="skill-tag">PHP</span>
+        <span class="skill-tag">MySQL</span>
+        <span class="skill-tag">Node.js</span>
+        <span class="skill-tag">Cypress</span>
+        <span class="skill-tag">Git</span>
+        <span class="skill-tag">Docker</span>
+        <span class="skill-tag">REST APIs</span>
+        <span class="skill-tag">Tailwind CSS</span>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+      <div class="projects-header">
+        <div class="section-badge">My Projects</div>
+        <h2 class="section-title-large">Check out my latest work</h2>
+        <p class="section-subtitle">
+          I've worked on a variety of projects, from simple websites to complex web applications. 
+          Here are a few of my favorites.
+        </p>
+      </div>
+      
+      <div class="projects-grid">
+        <div class="project-card">
+          <div class="project-content">
+            <div class="project-header">
+              <h3 class="project-title">VCP System</h3>
+              <span class="project-date">2023 - Present</span>
+            </div>
+            <p class="project-description">
+              Laravel-based internal platform for managing company operations and workflows. 
+              Features user management, reporting, and automated processes.
+            </p>
+            <div class="project-tags">
+              <span class="project-tag">Laravel</span>
+              <span class="project-tag">PHP</span>
+              <span class="project-tag">MySQL</span>
+              <span class="project-tag">Vue.js</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-content">
+            <div class="project-header">
+              <h3 class="project-title">CAF Form Automation</h3>
+              <span class="project-date">2023</span>
+            </div>
+            <p class="project-description">
+              Cypress automation system for PDF generation and form processing. 
+              Streamlined workflow automation with testing and validation.
+            </p>
+            <div class="project-tags">
+              <span class="project-tag">Cypress</span>
+              <span class="project-tag">JavaScript</span>
+              <span class="project-tag">Automation</span>
+              <span class="project-tag">PDF</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+      <div class="contact-header">
+        <div class="section-badge">Contact</div>
+        <h2 class="section-title-large">Get in Touch</h2>
+        <p class="section-subtitle">
+          Want to chat? Just shoot me an email and I'll respond whenever I can. 
+          I'm always interested in discussing new opportunities and projects.
+        </p>
+      </div>
+      <div class="contact-info">
+        <a href="mailto:csjjgarcia@gmail.com" class="contact-link">
+          <i class="fas fa-envelope"></i>
+          csjjgarcia@gmail.com
+        </a>
+        <a href="https://github.com/jehralgarcia" class="contact-link" target="_blank">
+          <i class="fab fa-github"></i>
+          GitHub: jehralgarcia
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <!-- Navigation Dock -->
+  <nav class="dock-nav">
+    <div class="dock">
+      <a href="#hero" class="dock-item" title="Home">
+        <i class="fas fa-home"></i>
+      </a>
+      <a href="#about" class="dock-item" title="About">
+        <i class="fas fa-user"></i>
+      </a>
+      <a href="#work" class="dock-item" title="Experience">
+        <i class="fas fa-briefcase"></i>
+      </a>
+      <a href="#projects" class="dock-item" title="Projects">
+        <i class="fas fa-code"></i>
+      </a>
+      <a href="#contact" class="dock-item" title="Contact">
+        <i class="fas fa-envelope"></i>
+      </a>
+      <div class="dock-separator"></div>
+      <a href="https://github.com/jehralgarcia" class="dock-item" title="GitHub" target="_blank">
+        <i class="fab fa-github"></i>
+      </a>
+    </div>
+  </nav>
+
+  <script>
+    // Smooth scrolling for navigation links
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+        const target = document.querySelector(this.getAttribute('href'));
+        if (target) {
+          target.scrollIntoView({
+            behavior: 'smooth',
+            block: 'start'
+          });
+        }
+      });
+    });
+
+    // Add active state to dock navigation
+    const sections = document.querySelectorAll('section[id]');
+    const navItems = document.querySelectorAll('.dock-item[href^="#"]');
+
+    function updateActiveNav() {
+      const scrollPos = window.scrollY + 100;
+      
+      sections.forEach(section => {
+        const top = section.offsetTop;
+        const height = section.offsetHeight;
+        const id = section.getAttribute('id');
+        
+        if (scrollPos >= top && scrollPos < top + height) {
+          navItems.forEach(item => {
+            item.classList.remove('active');
+            if (item.getAttribute('href') === `#${id}`) {
+              item.classList.add('active');
+            }
+          });
+        }
+      });
+    }
+
+    window.addEventListener('scroll', updateActiveNav);
+    updateActiveNav();
+  </script>
 </body>
 </html>
