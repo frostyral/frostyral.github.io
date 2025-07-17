@@ -89,12 +89,14 @@ body {
   border-radius: 50%;
   display: block;
   object-fit: cover;
-  border: 4px solid hsl(var(--border));
-  transition: transform 0.3s ease;
+  border: none;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15), 0 4px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
 }
 
 .avatar:hover {
-  transform: scale(1.05);
+  transform: scale(1.08) translateY(-2px);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2), 0 8px 25px rgba(0, 0, 0, 0.15);
 }
 
 /* Section Styles */
