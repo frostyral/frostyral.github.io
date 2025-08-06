@@ -110,8 +110,11 @@ body {
   font-weight: 800;
   line-height: 1.1;
   letter-spacing: -0.025em;
+  color: hsl(var(--foreground));
   animation: fadeInUp 0.8s ease-out;
   background: linear-gradient(135deg, hsl(var(--foreground)) 0%, hsl(var(--primary)) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   background-clip: text;
 }
 
@@ -235,7 +238,7 @@ body {
   color: hsl(var(--muted-foreground));
   font-size: 1.25rem;
   line-height: 1.7;
-  margin-bottom: 1rem;
+  margin-bottom: 3rem;
   text-align: center;
   max-width: 600px;
   align-self: center;
@@ -305,6 +308,9 @@ body {
   font-weight: 500;
   white-space: nowrap;
   padding: 0.25rem 0.75rem;
+  background-color: hsl(var(--muted));
+  border-radius: var(--radius);
+  border: 1px solid hsl(var(--border));
 }
 
 .work-description {
@@ -561,6 +567,7 @@ body {
 /* Contact */
 .contact-header {
   text-align: center;
+  margin-bottom: 3rem;
   display: flex;
   flex-direction: column;
   align-items: center;
