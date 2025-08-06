@@ -359,9 +359,11 @@ body {
 
 .contact-info {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   gap: 1rem;
   align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 .contact-link {
