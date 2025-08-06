@@ -305,9 +305,6 @@ body {
   font-weight: 500;
   white-space: nowrap;
   padding: 0.25rem 0.75rem;
-  background-color: hsl(var(--muted));
-  border-radius: var(--radius);
-  border: 1px solid hsl(var(--border));
 }
 
 .work-description {
